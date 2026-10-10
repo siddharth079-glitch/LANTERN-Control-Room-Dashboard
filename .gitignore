@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output and caches
+dist/
+client/dist/
+.vite/
+.cache/
+coverage/
+
+# Environment secrets (never commit real credentials)
+.env
+.env.*
+!.env.example
+
+# Deployment / local files
+.vercel/
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
